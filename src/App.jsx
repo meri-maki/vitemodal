@@ -7,7 +7,7 @@ import { useWeb3Modal } from "@web3modal/wagmi/react"
 function ConnectButton() {
 	const { open } = useWeb3Modal()
 
-	return <button onClick={open}>Custom Connect Button</button>
+	return <button onClick={() => open()}>Custom Connect Button</button>
 }
 function App() {
 	const { isConnected } = useAccount({
@@ -16,7 +16,7 @@ function App() {
 		},
 	})
 
-	return <div className="app">{isConnected ? <p>Connected</p> : <w3m-button />}</div>
+	return <div className="app">{isConnected ? <p>Connected</p> : <ConnectButton />}</div>
 }
 
 export default App
