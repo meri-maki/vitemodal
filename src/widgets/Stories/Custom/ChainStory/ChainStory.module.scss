@@ -1,0 +1,60 @@
+.ChainStory {
+    align-self: center;
+    height: 100%;
+    width: 100%;
+
+    .content {
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100%;
+    }
+
+    .textBlock {
+        width: 100%;
+
+        .chip {
+            right: 0;
+            bottom: 12px;
+            // width: auto;
+            position: absolute;
+        }
+
+        span {
+
+            font-size: 200px;
+            font-weight: 700;
+            line-height: 200px;
+            letter-spacing: -10px;
+        }
+
+        &.big {
+            span {
+                font-size: 160px;
+                letter-spacing: -8px;
+            }
+        }
+
+        &.small {
+            width: min-content;
+
+            .chip {
+                left: 100px;
+                width: max-content;
+            }
+        }
+
+        position: relative;
+    }
+
+
+
+    .server {
+        align-self: center;
+        position: absolute;
+        width: 200px;
+        bottom: 50px;
+        z-index: -1;
+    }
+
+
+}

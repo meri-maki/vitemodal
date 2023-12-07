@@ -1,0 +1,39 @@
+.FetchLoader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
+    &.opened {
+        pointer-events: auto;
+        animation: append-animate .3s ease-in-out;
+        opacity: 1;
+    }
+
+    &.isClosing {
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        opacity: 0;
+    }
+
+    .animation {
+        width: 80%;
+        max-width: 400px;
+    }
+}
+
+
+@keyframes append-animate {
+    from {
+        transition: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transition: scale(1);
+        opacity: 1;
+    }
+}

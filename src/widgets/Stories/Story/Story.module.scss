@@ -1,0 +1,89 @@
+.Story {
+    width: 100%;
+    height: 100%;
+    padding-top: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .logo {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        z-index: 5;
+        position: absolute;
+        top: 34px;
+        left: 24px;
+    }
+
+    [data-back] {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        object-fit: cover;
+        animation: linear animate 0.3s;
+    }
+
+    [data-content] {
+        animation: linear animate 0.3s;
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        padding: 0 24px 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    [data-small] {
+        color: var(--text-200, #D4D4D8);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+}
+
+
+@keyframes animate {
+    from {
+        transition: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transition: scale(1);
+        opacity: 1;
+    }
+}

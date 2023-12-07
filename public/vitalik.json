@@ -1,0 +1,331 @@
+{
+	"params": {},
+	"query": { "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045" },
+	"stats": {
+		"amounts": {
+			"topTokensByAmount": [
+				{
+					"logo": "",
+					"name": "Tether",
+					"symbol": "USDT",
+					"amountUSD": 20139.850121472766
+				},
+				{
+					"logo": "",
+					"name": "Ethereum",
+					"symbol": "ETH",
+					"amountUSD": 16861.51639900494
+				}
+			],
+			"totalAmount": 37001.3665204777
+		},
+		"transactionsTotalCount": 296,
+		"topMonth": {
+			"monthIndex": 5,
+			"transactionsCount": 61
+		},
+		"chains": {
+			"activeCount": 4,
+			"tokensCount": 121
+		},
+		"topToken": {
+			"tokenData": {
+				"logo": "",
+				"name": "Tether",
+				"symbol": "USDT",
+				"amountUSD": 20139.850121472766
+			},
+			"amountByMonthUSD": [0, 4003.8888934249553, 0, 0, 991.0152849537498, 4978.780164467246, 4025.6065610828555, 0, 1035.8290494893963, 5104.730168054555, 0, 0]
+		},
+		"nft": {
+			"tradesCount": 206,
+			"topTradedNFT": {
+				"nft_id": "ethereum.0x524cab2ec69124574082676e6f654a18df49a048.2480",
+				"chain": "ethereum",
+				"contract_address": "0x524cAB2ec69124574082676e6F654a18df49A048",
+				"token_id": "2480",
+				"collection_id": "c2153e3ef733fa2bdb6c320d2dd0e72d",
+				"event_type": "sale",
+				"from_address": "0xA2FcD684DFBe260f78558cBAb3d174DBD4C4c317",
+				"to_address": "0xa28B73303EDCc573B438Ca7174ba02bA7a418852",
+				"quantity": 1,
+				"quantity_string": "1",
+				"timestamp": "2023-05-12T12:17:23Z",
+				"block_number": 17244077,
+				"block_hash": "0xb836fdde52d69834d484ae88622e591d0b0ec4034faa20f70182a9c4b109b3d8",
+				"transaction": "0x71ef4e788260332d0da490595da6a30467e0303f6e9e08c2edfb8e34aa142ae4",
+				"transaction_initiator": "0xa28B73303EDCc573B438Ca7174ba02bA7a418852",
+				"log_index": 234,
+				"batch_transfer_index": 0,
+				"sale_details": {
+					"marketplace_id": "opensea",
+					"marketplace_name": "OpenSea",
+					"is_bundle_sale": false,
+					"payment_token": {
+						"payment_token_id": "ethereum.native",
+						"name": "Ether",
+						"symbol": "ETH",
+						"address": null,
+						"decimals": 18
+					},
+					"unit_price": 370000000000000000,
+					"total_price": 370000000000000000,
+					"unit_price_usd_cents": 65436
+				},
+				"nft_details": {
+					"nft_id": "ethereum.0x524cab2ec69124574082676e6f654a18df49a048.2480",
+					"chain": "ethereum",
+					"contract_address": "0x524cAB2ec69124574082676e6F654a18df49A048",
+					"token_id": "2480",
+					"name": "Lil Pudgy #2480",
+					"description": "Lil Pudgys are a collection of 22,222 randomly generated NFTs minted on Ethereum.",
+					"previews": {
+						"image_small_url": "https://lh3.googleusercontent.com/bk1CbFFqoJQ-0CAjYSk1sTlFrYy2O3R5EI9o-pIrHbXar1pJmKey47f9oSKpeS0IaAkdI0uePVlAlTt4mrsqPDmXqezOUMyuDAW4=s250",
+						"image_medium_url": "https://lh3.googleusercontent.com/bk1CbFFqoJQ-0CAjYSk1sTlFrYy2O3R5EI9o-pIrHbXar1pJmKey47f9oSKpeS0IaAkdI0uePVlAlTt4mrsqPDmXqezOUMyuDAW4",
+						"image_large_url": "https://lh3.googleusercontent.com/bk1CbFFqoJQ-0CAjYSk1sTlFrYy2O3R5EI9o-pIrHbXar1pJmKey47f9oSKpeS0IaAkdI0uePVlAlTt4mrsqPDmXqezOUMyuDAW4=s1000",
+						"image_opengraph_url": "https://lh3.googleusercontent.com/bk1CbFFqoJQ-0CAjYSk1sTlFrYy2O3R5EI9o-pIrHbXar1pJmKey47f9oSKpeS0IaAkdI0uePVlAlTt4mrsqPDmXqezOUMyuDAW4=k-w1200-s2400-rj",
+						"blurhash": "UIKK,6WV%Qs:-ZoLIlWCJjj[wzWBoaWBRos:",
+						"predominant_color": "#b4b4db"
+					},
+					"image_url": "https://cdn.simplehash.com/assets/b676803a3b8220d30785844df7ddadfba7096bcca5416b3373e81957adfea080.png",
+					"image_properties": {
+						"width": 2700,
+						"height": 2700,
+						"size": 212381,
+						"mime_type": "image/png"
+					},
+					"video_url": null,
+					"video_properties": null,
+					"audio_url": null,
+					"audio_properties": null,
+					"model_url": null,
+					"model_properties": null,
+					"other_url": null,
+					"other_properties": null,
+					"background_color": null,
+					"external_url": null,
+					"created_date": "2023-04-20T00:40:47",
+					"status": "minted",
+					"token_count": 1,
+					"owner_count": 1,
+					"owners": [
+						{
+							"owner_address": "0xEA92CFde706997aF996E4003548aAF1053f836B4",
+							"quantity": 1,
+							"quantity_string": "1",
+							"first_acquired_date": "2023-09-10T12:03:59",
+							"last_acquired_date": "2023-09-10T12:03:59"
+						}
+					],
+					"contract": {
+						"type": "ERC721",
+						"name": "LilPudgys",
+						"symbol": "LP",
+						"deployed_by": "0xe9dA256a28630EFDc637BfD4c65F0887bE1AEDa8",
+						"deployed_via_contract": null,
+						"owned_by": "0xf54c9A0E44a5F5aFd27C7aC8a176A843b9114F1d",
+						"has_multiple_collections": false
+					},
+					"collection": {
+						"collection_id": "c2153e3ef733fa2bdb6c320d2dd0e72d",
+						"name": "Lil Pudgys",
+						"description": "Lil Pudgys is a collection of 22,222 NFTs originating from Pudgy Penguins. Don’t let their small stature fool you, Lil Pudgys are an integral piece of the Pudgy Penguins history. Their story began during the most frigid of winters. In the midst of adversity, the birth of the Lil Pudgys helped spark new-life into the Pudgy Penguins community. \n\nWith their unique traits and personalities, there’s a Lil Pudgy for everyone. Lil Pudgy holders receive exclusive access to experiences, events, IP licensing opportunities and more. \n\nPudgy Collections:\n[Pudgy Penguins](https://opensea.io/collection/pudgypenguins) | [Pudgy Rods](https://opensea.io/collection/pudgyrods)\n\nCrosschain Lil Pudgys:\n[Bridge](https://bridge.pudgypenguins.com) | [Polygon](https://opensea.io/collection//lilpudgys-polygon) | [Binance](https://opensea.io/collection//lilpudgys-binance) | [Arbitrum](https://opensea.io/collection//lilpudgys-arbitrum)",
+						"image_url": "https://lh3.googleusercontent.com/fJQyqrNtVNHnAe7jtexk2DcoXx4BIyNf-EbPWby0cAerkTGpvCEk-OcT-wK9Fus3cUyw-E6KOlNqEgilDOgAOYoS6shUmKXbXA",
+						"banner_image_url": "https://lh3.googleusercontent.com/F3MjP9mPPpwCnKFf_QhCDsFGi3OgWERktY9MjukutMP-99wLIB1t1zrHWq6ToipmwZ4GXODLQ04LENgS4TonyibpMawsg3VA7ihh=w2500",
+						"category": "pfps",
+						"is_nsfw": false,
+						"external_url": "https://www.pudgypenguins.com/",
+						"twitter_username": "pudgypenguins",
+						"discord_url": "https://discord.gg/pudgypenguins",
+						"instagram_username": "pudgypenguins",
+						"medium_username": null,
+						"telegram_url": null,
+						"marketplace_pages": [
+							{
+								"marketplace_id": "opensea",
+								"marketplace_name": "OpenSea",
+								"marketplace_collection_id": "lilpudgys",
+								"nft_url": "https://opensea.io/assets/ethereum/0x524cab2ec69124574082676e6f654a18df49a048/2480",
+								"collection_url": "https://opensea.io/collection/lilpudgys",
+								"verified": true
+							}
+						],
+						"metaplex_mint": null,
+						"metaplex_first_verified_creator": null,
+						"floor_prices": [
+							{
+								"marketplace_id": "blur",
+								"marketplace_name": "Blur",
+								"value": 758000000000000000,
+								"payment_token": {
+									"payment_token_id": "ethereum.native",
+									"name": "Ether",
+									"symbol": "ETH",
+									"address": null,
+									"decimals": 18
+								},
+								"value_usd_cents": 171586
+							},
+							{
+								"marketplace_id": "opensea",
+								"marketplace_name": "OpenSea",
+								"value": 785000000000000000,
+								"payment_token": {
+									"payment_token_id": "ethereum.native",
+									"name": "Ether",
+									"symbol": "ETH",
+									"address": null,
+									"decimals": 18
+								},
+								"value_usd_cents": 177698
+							},
+							{
+								"marketplace_id": "x2y2",
+								"marketplace_name": "X2Y2",
+								"value": 1200000000000000000,
+								"payment_token": {
+									"payment_token_id": "ethereum.native",
+									"name": "Ether",
+									"symbol": "ETH",
+									"address": null,
+									"decimals": 18
+								},
+								"value_usd_cents": 271641
+							},
+							{
+								"marketplace_id": "looksrare",
+								"marketplace_name": "LooksRare",
+								"value": 1200000000000000000,
+								"payment_token": {
+									"payment_token_id": "ethereum.native",
+									"name": "Ether",
+									"symbol": "ETH",
+									"address": null,
+									"decimals": 18
+								},
+								"value_usd_cents": 271641
+							}
+						],
+						"top_bids": [
+							{
+								"marketplace_id": "blur",
+								"marketplace_name": "Blur",
+								"value": 750000000000000000,
+								"payment_token": {
+									"payment_token_id": "ethereum.native",
+									"name": "Ether",
+									"symbol": "ETH",
+									"address": null,
+									"decimals": 18
+								},
+								"value_usd_cents": 169775
+							}
+						],
+						"distinct_owner_count": 7576,
+						"distinct_nft_count": 21344,
+						"total_quantity": 21344,
+						"chains": ["ethereum"],
+						"top_contracts": ["ethereum.0x524cab2ec69124574082676e6f654a18df49a048"]
+					},
+					"last_sale": {
+						"from_address": "0xE71a126D41d167Ce3CA048cCce3F61Fa83274535",
+						"to_address": "0xE916BfB7E1e06b5503F88D4261A1928E72914ECC",
+						"quantity": 1,
+						"quantity_string": "1",
+						"timestamp": "2023-09-07T16:10:11",
+						"transaction": "0x6644fe833c116ab34eb6e18f546505545db0ee28c179bd4ee7fe7f6fb88f7c38",
+						"marketplace_id": "blur",
+						"marketplace_name": "Blur",
+						"is_bundle_sale": false,
+						"payment_token": {
+							"payment_token_id": "ethereum.0x0000000000a39bb272e79075ade125fd351887ac",
+							"name": "Blur Pool",
+							"symbol": null,
+							"address": "0x0000000000A39bb272e79075ade125fd351887Ac",
+							"decimals": 18
+						},
+						"unit_price": 284900000000000000,
+						"total_price": 284900000000000000,
+						"unit_price_usd_cents": 46407
+					},
+					"first_created": {
+						"minted_to": "0xdED8E6d0a338743a566235Ec5D15b05cbCCaEc20",
+						"quantity": 1,
+						"quantity_string": "1",
+						"timestamp": "2023-04-20T00:40:47",
+						"block_number": 17084248,
+						"transaction": "0x7241e1b6767a8af8a4e7aa06ef2da2d97c5b9e069dbf4c144a2574c218f7a376",
+						"transaction_initiator": "0xdED8E6d0a338743a566235Ec5D15b05cbCCaEc20"
+					},
+					"rarity": {
+						"rank": 7060,
+						"score": 1.061,
+						"unique_attributes": 0
+					},
+					"royalty": [
+						{
+							"source": "opensea",
+							"total_creator_fee_basis_points": 500,
+							"recipients": [
+								{
+									"address": "0x2dE038A402119bCbd49A4412c35f27670801eD4e",
+									"percentage": 100,
+									"basis_points": 500
+								}
+							]
+						}
+					],
+					"extra_metadata": {
+						"attributes": [
+							{
+								"trait_type": "Background",
+								"value": "Lavendar",
+								"display_type": null
+							},
+							{
+								"trait_type": "Skin",
+								"value": "Volcanic Turquoise",
+								"display_type": null
+							},
+							{
+								"trait_type": "Body",
+								"value": "Turtleneck Green",
+								"display_type": null
+							},
+							{
+								"trait_type": "Face",
+								"value": "Normal",
+								"display_type": null
+							},
+							{
+								"trait_type": "Left Flipper",
+								"value": "None",
+								"display_type": null
+							},
+							{
+								"trait_type": "Head",
+								"value": "Backwards Red",
+								"display_type": null
+							},
+							{
+								"trait_type": "Right Flipper",
+								"value": "Juice Box",
+								"display_type": null
+							}
+						],
+						"image_original_url": "https://api.pudgypenguins.io/lil/image/2480",
+						"animation_original_url": null,
+						"metadata_original_url": "https://api.pudgypenguins.io/lil/2480"
+					}
+				}
+			},
+			"topTradedNFTPriceUSD": 657.4301795165795
+		},
+		"gas": {
+			"amountUSD": 999,
+			"group": 100
+		},
+		"poap": [],
+		"ens": "burrit0.eth"
+	}
+}

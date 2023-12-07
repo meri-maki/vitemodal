@@ -1,0 +1,52 @@
+.ConnectButton {
+    &.connect {
+        background: var(--bg-200, #18181B);
+        color: var(--color-white);
+        transform: translate(0);
+        transform-style: preserve-3d;
+        width: 100%;
+        //max-width: 280px;
+
+        &:disabled {
+            opacity: 1;
+            pointer-events: none;
+        }
+
+        [data-sh] {
+            position: absolute;
+            inset: 0px;
+            transform: translateZ(-1px);
+
+            &:before {
+                border-radius: 48px;
+                content: "";
+                position: absolute;
+                transform: translate3d(0, 0, -1px);
+                inset: 0px;
+                background: linear-gradient(90deg, #F79F1F 0%, #C3C 100%);
+                filter: blur(20px);
+                transition: inset 0.5s ease;
+            }
+        }
+
+        &:hover {
+            box-shadow: none;
+
+            [data-sh] {
+                &:before {
+                    inset: -10px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 706px) {
+
+    .ConnectButton {
+        &.connect {
+            max-width: 232px;
+        }
+    }
+}

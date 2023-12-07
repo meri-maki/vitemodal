@@ -1,0 +1,75 @@
+ .ConnectModal {
+     .cardsBlock {
+         display: flex;
+         gap: 16px;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+     }
+ }
+
+
+ .modalBtn {
+     width: 100%;
+     max-width: 400px;
+
+     [data-img] {
+         max-width: 56px;
+         width: 100%;
+         height: auto;
+         margin-bottom: 16px;
+     }
+
+
+     color: var(--color-white);
+     border-radius: 32px;
+     background: rgba(63, 63, 70, 0.40);
+     padding: 32px;
+
+     &:hover {
+         box-shadow: none;
+     }
+
+     p {
+         margin-top: -16px;
+     }
+
+     .link {
+         display: none;
+     }
+ }
+
+ @media screen and (min-width: 705px) {
+     .modalBtn {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         [data-img] {
+             max-width: 64px;
+         }
+
+         border-radius: 48px;
+
+         .link {
+             display: flex;
+             align-self: flex-end;
+         }
+
+
+         p {
+             margin-bottom: 16px;
+         }
+     }
+
+     .ConnectModal {
+         .cardsBlock {
+             gap: 24px;
+             flex-direction: row;
+         }
+     }
+ }
+
+
+ @media screen and (min-width: 1024px) {}

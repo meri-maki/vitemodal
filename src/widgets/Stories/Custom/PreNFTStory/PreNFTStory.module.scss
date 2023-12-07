@@ -1,0 +1,27 @@
+.PreNFTStory {
+    align-self: center;
+    height: 100%;
+
+    .content {
+        height: 100%;
+        padding-top: 104px;
+
+        h3 {
+            margin-bottom: 16px;
+        }
+
+        p {
+            color: white;
+            margin-bottom: 56px;
+        }
+
+    }
+
+    .pre {
+        position: absolute;
+        z-index: -1;
+        align-self: center;
+        width: 75%;
+        bottom: 0;
+    }
+}

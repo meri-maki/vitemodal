@@ -1,0 +1,19 @@
+.WelcomeStory {
+    align-self: center;
+
+    .content {
+        top: 50px;
+
+        &.ens {
+            top: 10px;
+        }
+
+        h2 {
+            margin-bottom: 24px;
+        }
+
+        p {
+            margin-bottom: 48px;
+        }
+    }
+}
